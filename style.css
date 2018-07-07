@@ -1,0 +1,58 @@
+body{
+background-image: url(images/background-main);
+width: 1100px; 
+height: 1000px;
+}
+
+.box{
+ font-display: block;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    width: 850px; 
+    height: 300px;
+    margin: 10px auto;
+    text-align: left;
+    mix-blend-mode: multiply;
+    font-family: sans-serif;
+    padding: 12px 25px;
+    
+}
+
+.box-white{
+ font-display: block;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    width: 850px; 
+    height: 360px;
+    margin: auto auto;
+    text-align: left;
+    mix-blend-mode: screen;
+    font-family: sans-serif;
+    padding: 12px 25px;
+    opacity: 0.6;
+    line-height: 15px;
+}
+
+small{
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: thin;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    mix-blend-mode: unset;
+
+}
+
+
+.internal{
+    dir: rtl;
+    text-align: right;
+/*    background-color: black;*/
+/*    color: white;*/
+/*    mix-blend-mode: none !important;*/
+}
